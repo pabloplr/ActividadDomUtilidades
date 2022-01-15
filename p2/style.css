@@ -1,0 +1,18 @@
+body article {
+    border: black solid 1px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: fit-content;
+    /* grid-gap: 10px;
+    grid-auto-rows: minmax(10px, 10px); */
+}
+
+body article div {
+    border: black solid 1px;
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 2px;
+}
